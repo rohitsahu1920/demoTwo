@@ -44,7 +44,7 @@ class DashboardController extends GetxController{
       gridName.add(String.fromCharCode(a));
     }
     log("List Name :: $gridName");
-   Get.to(() => GridScreen());
+   Get.to(() => const GridScreen());
   }
 
   void searchMethod(){
